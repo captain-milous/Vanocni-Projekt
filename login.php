@@ -11,38 +11,24 @@
 <body>
     
     <div class="wrapper">
-        <section class="form signup">
+        <section class="form login">
             <header>Realtime chat App</header>
             <form action="#">
                 <div class="error-txt">This is an error message!</div>
-                <div class="name-details">
-                    <div class="field input">
-                        <label>Jméno</label>
-                        <input type="text" placeholder="Pepa">
-                    </div>
-                    <div class="field input">
-                        <label>Přijmení</label>
-                        <input type="text" placeholder="Novák">
-                    </div>
-                </div>
                 <div class="field input">
                     <label>Email</label>
-                    <input type="email" placeholder="pepa.novak@email.cz">
+                    <input type="email" placeholder="Email">
                 </div>
                 <div class="field input">
                     <label>Heslo</label>
-                    <input type="password" placeholder="h0vN0-k13sL0?">
+                    <input type="password" placeholder="Heslo">
                     <i class="fas fa-eye"></i>
                 </div>
-                <div class="field image">
-                    <label>Profilový obrázek</label>
-                    <input type="file">
-                </div>
                 <div class="field button">
-                    <input type="submit" placeholder="Zaregistrovat se">
+                    <input type="submit" placeholder="Přihlásit se">
                 </div>
             </form>
-            <div class="link">Už jste zaregistrován? <a href="login.php">Přihlásit se</a></div>
+            <div class="link">Ještě nejste zaregistrován? <a href="index.php">Zaregistrovat se</a></div>
         </section>
     </div>
 </body>

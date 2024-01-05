@@ -5,7 +5,7 @@
 }
 
 .users header,
-.user-list a {
+.users-list a {
     display: flex;
     align-items: center;
     padding-bottom: 20px;
@@ -18,8 +18,9 @@
  border-radius: 50%;   
 }
 
-.users header .content{
+:is(.users, .users-list) .content{
     display: flex;
+    align-items: center;
 }
 
 .users header .content img{
@@ -27,11 +28,11 @@
     width: 50px;
 }
 
-.users header .details{
+:is(.users, .users-list) .details{
+    color: #000;
     margin-left: 15px;
 }
-
-.users header .details span{
+:is(.users, .users-list) .details span{
     font-size: 18px;
     font-weight: 500;
 }
@@ -79,11 +80,42 @@
     cursor: pointer;
 }
 
-.user-list{
-
+.users-list{
+    max-height: 400px;
+    overflow-y: auto;
 }
 
-.user-list a .content img{
+.users-list::-webkit-scrollbar{ 
+    width: 0px;
+}
+
+.users-list a {
+    margin-bottom: 15px;
+    page-break-after: 10px;
+    padding-right: 15px;
+    border-bottom-color: #f1f1f1;
+}
+
+.users-list a:last-child{
+    border: none;
+    margin-bottom: 0px;
+}
+
+.users-list a .content img{
     height: 40px;
     width: 40px;
+}
+
+.users-list a .content p{
+    color: #676767;
+}
+
+.users-list a .status-dot{
+    font-size: 12px;
+    color: #468669;
+}
+
+.users-list a .status-dot.offline{
+    font-size: 12px;
+    color: #ccc;
 }

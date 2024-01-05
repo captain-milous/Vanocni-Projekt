@@ -49,6 +49,7 @@
                     </div>
                     <div class="status-dot"><i class="fas fa-circle"></i></div>
                 </a>
+                
             </div>
         </section>
     </div>

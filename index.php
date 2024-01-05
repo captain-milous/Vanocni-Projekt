@@ -10,34 +10,34 @@
 </head>
 <body>
     
-    <div>
+    <div class="wrapper">
         <section class="form signup">
             <header>Realtime chat App</header>
             <form action="#">
                 <div class="error-txt">This is an error message!</div>
                 <div class="name-details">
-                    <div class="field">
+                    <div class="field input">
                         <label>Jméno</label>
                         <input type="text" placeholder="Pepa">
                     </div>
-                    <div class="field">
+                    <div class="field input">
                         <label>Přijmení</label>
                         <input type="text" placeholder="Novák">
                     </div>
                 </div>
-                <div class="field">
+                <div class="field input">
                     <label>Email</label>
                     <input type="email" placeholder="pepa.novak@email.cz">
                 </div>
-                <div class="field">
+                <div class="field input">
                     <label>Heslo</label>
-                    <input type="password" placeholder="Heslo">
+                    <input type="password" placeholder="h0vN0-k13sL0?">
                 </div>
-                <div class="field">
+                <div class="field image">
                     <label>Profilový obrázek</label>
                     <input type="file">
                 </div>
-                <div class="field">
+                <div class="field button">
                     <input type="submit" placeholder="Zaregistrovat se">
                 </div>
             </form>

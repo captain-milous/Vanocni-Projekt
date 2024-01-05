@@ -4,7 +4,8 @@
     padding: 25px 30px;
 }
 
-.users header{
+.users header,
+.user-list a {
     display: flex;
     align-items: center;
     padding-bottom: 20px;
@@ -76,4 +77,13 @@
     font-size: 17px;
     border-radius: 0 5px 5px 0;
     cursor: pointer;
+}
+
+.user-list{
+
+}
+
+.user-list a .content img{
+    height: 40px;
+    width: 40px;
 }

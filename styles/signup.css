@@ -1,28 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:wght@200;300;400;500;600;700&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    font-family: 'Poppins', sans-serif;
-}
-
-body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    background: #ff69c4;
-}
-
-.wrapper {
-    background: white;
-    width: 450px;
-    border-radius: 16px;
-    box-shadow: 0 0 128px 0 rgba(0, 0, 0, 0.1),
-                0 32px 64px -48px rgba(0, 0, 0, 0.5);
-}
-
 /* Signup Form CSS */
 .form{
     padding: 25px 30px;
@@ -119,47 +94,3 @@ form .name-details .field:last-child{
     text-decoration: underline;
 }
 
-/* User Area CSS */
-
-.users{
-    padding: 25px 30px;
-}
-
-.users header{
-    display: flex;
-    align-items: center;
-    padding-bottom: 20px;
-    justify-content: space-between;
-    border-bottom: 1px solid #e6e6e6;
-}
-
-.wrapper img{
- object-fit: cover;
- border-radius: 50%;   
-}
-
-.users header .content{
-    display: flex;
-}
-
-.users header .content img{
-    height: 50px;
-    width: 50px;
-}
-
-.users header .details{
-    margin-left: 15px;
-}
-
-.users header .details span{
-    font-size: 18px;
-    font-weight: 500;
-}
-
-.users header .logout{
-    color: #fff;
-    font-size: 17px;
-    padding: 7px 15px;
-    background: #333;
-    border-radius: 5px;
-}

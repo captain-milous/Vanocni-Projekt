@@ -46,5 +46,6 @@
             <div class="link">Už jste zaregistrován? <a href="login.php">Přihlásit se</a></div>
         </section>
     </div>
+    <script src="scripts/pass-show-hide.js" defer></script>
 </body>
 </html>

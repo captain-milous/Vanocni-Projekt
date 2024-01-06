@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/users.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+    <script src="scripts/users.js" defer></script>
+
 </head>
 <body>
     
@@ -25,8 +28,8 @@
             </header>
             <div class="search">
                 <span>Zadejte jméno uživatele</span>
-                <input type="text" placeholder="Hledej jméno">
-                <button><i class="fas fa-search"></i></button>
+                <input id="searchBar" type="text" placeholder="Hledej jméno">
+                <button onclick="searchFunction()"><i class="fas fa-search"></i></button>
             </div>
             <div class="users-list">
                 <a href="#">

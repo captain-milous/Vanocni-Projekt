@@ -35,7 +35,7 @@
                 inset 0 -32px 32px -32px rgb(0 0 0 / 5%);
 }
 
-.chat-box::-webkit-scrollbar{
+.chat-box::-webkit-scrollbar {
     width: 0px;
 }
 
@@ -50,27 +50,27 @@
                 0 16px 16px -16px rgb(0 0 0 / 10%);
 }
 
-.chat-box .outgoing{
+.chat-box .outgoing {
     display: flex;
 }
 
-.outgoing .details{
+.outgoing .details {
     margin-left: auto;
     max-width: calc(100% - 130px);
 }
 
-.outgoing .details p{
+.outgoing .details p {
     background: #ff69c4;
     color: #fff;
     border-radius: 18px 18px 0 18px;
 }
 
-.chat-box .incoming{
+.chat-box .incoming {
     display: flex;
     align-items: center;
 }
 
-.chat-box .incoming img{
+.chat-box .incoming img {
     height: 30px;
     width: 30px;
 }

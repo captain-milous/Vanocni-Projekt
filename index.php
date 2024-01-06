@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/signup.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    
+    <script src="scripts/pass-show-hide.js"></script>
+
+    
 </head>
 <body>
     
@@ -46,6 +50,5 @@
             <div class="link">Už jste zaregistrován? <a href="login.php">Přihlásit se</a></div>
         </section>
     </div>
-    <script src="scripts/pass-show-hide.js" defer></script>
 </body>
 </html>

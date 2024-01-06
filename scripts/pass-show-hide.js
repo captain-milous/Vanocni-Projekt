@@ -1,8 +1,10 @@
-const pswrdField = document.querySelector(".form input['type=password]'"),
-toggleBtn = document.querySelector(".form .field i");
+const pswrdField = document.getElementById("password"); 
 
-console.log("XDD");
-
-toggleBtn.onclick = ()=>{ 
-    alert();
+function myFunction() { 
+    if(pswrdField.type == "password"){
+        pswrdField.type = "text";
+    } else {
+        pswrdField.type = "password";
+    }
 }
+

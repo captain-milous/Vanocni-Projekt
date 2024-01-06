@@ -9,9 +9,8 @@
     <link rel="stylesheet" href="styles/signup.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
     
-    <script src="scripts/pass-show-hide.js"></script>
+    <script src="scripts/pass-show-hide.js" defer></script>
 
-    
 </head>
 <body>
     
@@ -36,8 +35,8 @@
                 </div>
                 <div class="field input">
                     <label>Heslo</label>
-                    <input type="password" placeholder="h0vN0-k13sL0?">
-                    <i class="fas fa-eye"></i>
+                    <input id="password" type="password" placeholder="h0vN0-k13sL0?">
+                    <i class="fas fa-eye" onclick="myFunction()"></i>
                 </div>
                 <div class="field image">
                     <label>Profilový obrázek</label>

@@ -21,7 +21,7 @@
                         <p>Aktivní</p>
                     </div>
                 </div>
-                <a class="logout">Odhlásit se</a>
+                <a href="login.php" class="logout">Odhlásit se</a>
             </header>
             <div class="search">
                 <span>Zadejte jméno uživatele</span>

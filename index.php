@@ -43,14 +43,14 @@
                 <div class="field input">
                     <label>Heslo</label>
                     <input id="password" name="password" type="password" placeholder="h0vN0-k13sL0?" required>
-                    <i class="fas fa-eye" onclick="myFunction()"></i>
+                    <i class="fas fa-eye"></i>
                 </div>
                 <div class="field image" name="image" required>
                     <label>Profilový obrázek</label>
                     <input type="file">
                 </div>
                 <div class="field button">
-                    <input type="submit" placeholder="Zaregistrovat se" onclick="registration()">
+                    <input type="submit" placeholder="Zaregistrovat se">
                 </div>
             </form>
             <div class="link">Už jste zaregistrován? <a href="login.php">Přihlásit se</a></div>

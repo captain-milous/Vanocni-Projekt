@@ -33,7 +33,7 @@
                 <div class="field input">
                     <label>Heslo</label>
                     <input id="password" type="password" placeholder="Heslo">
-                    <i class="fas fa-eye" onclick="myFunction()"></i>
+                    <i class="fas fa-eye"></i>
                 </div>
                 <div class="field button">
                     <input type="submit" placeholder="Přihlásit se">

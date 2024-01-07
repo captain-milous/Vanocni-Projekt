@@ -1,3 +1,9 @@
+<?php 
+  session_start();
+  if(isset($_SESSION['unique_id'])){
+    header("location: users.php");
+  }
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,6 +16,7 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
 
     <script src="scripts/pass-show-hide.js" defer></script>
+    <script src="scripts/login.js" defer></script>
 
 </head>
 <body>

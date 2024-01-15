@@ -42,7 +42,7 @@
                 </div>
                 <div class="field input">
                     <label>Heslo</label>
-                    <input id="password" name="password" type="password" placeholder="h0vN0-k13sL0?" required>
+                    <input id="password" name="password" type="password" placeholder="Heslo" required>
                     <i class="fas fa-eye"></i>
                 </div>
                 <div class="field image" name="image" required>

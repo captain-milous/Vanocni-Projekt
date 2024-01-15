@@ -27,7 +27,7 @@
                 }
             }
         }else{
-            $output .= '<div class="text">No messages are available. Once you send message they will appear here.</div>';
+            $output .= '<div class="text">Žádné zprávy nebyly nalezeny. Napište zprávu..</div>';
         }
         echo $output;
     }else{

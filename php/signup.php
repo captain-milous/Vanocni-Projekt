@@ -38,24 +38,24 @@
                                         $_SESSION['unique_id'] = $result['unique_id'];
                                         echo "success";
                                     }else{
-                                        echo "This email address not Exist!";
+                                        echo "Tento email existuje!";
                                     }
                                 }else{
-                                    echo "Something went wrong. Please try again!";
+                                    echo "Něco se pokazilo. Zkuste to znovu!";
                                 }
                             }
                         }else{
-                            echo "Please upload an image file - jpeg, png, jpg";
+                            echo "Obrázek není validní. (png, jpeg, jpg)";
                         }
                     }else{
-                        echo "Please upload an image file - jpeg, png, jpg";
+                        echo "Obrázek není validní. (png, jpeg, jpg)";
                     }
                 }
             }
         }else{
-            echo "$email is not a valid email!";
+            echo "$email není validní!";
         }
     }else{
-        echo "All input fields are required!";
+        echo "Vyplňte všechna data!";
     }
 ?>

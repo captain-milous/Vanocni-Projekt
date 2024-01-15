@@ -25,7 +25,7 @@
         <section class="form signup">
             <header>Realtime chat App</header>
             <form id="form" action="#" enctype="multipart/form-data">
-                <div class="error-txt">This is an error message!</div>
+                <div id="error" class="error-txt">This is an error message!</div>
                 <div class="name-details">
                     <div class="field input">
                         <label>Jméno</label>
@@ -43,14 +43,14 @@
                 <div class="field input">
                     <label>Heslo</label>
                     <input id="password" name="password" type="password" placeholder="Heslo" required>
-                    <i class="fas fa-eye"></i>
+                    <i class="fas fa-eye"  id="show-hide"></i>
                 </div>
                 <div class="field image" name="image" required>
                     <label>Profilový obrázek</label>
                     <input type="file">
                 </div>
                 <div class="field button">
-                    <input type="submit" placeholder="Zaregistrovat se">
+                    <input id="submit-btn" type="submit" placeholder="Zaregistrovat se">
                 </div>
             </form>
             <div class="link">Už jste zaregistrován? <a href="login.php">Přihlásit se</a></div>

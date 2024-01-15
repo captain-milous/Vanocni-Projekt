@@ -42,7 +42,7 @@
             <div class="search">
                 <span>Zadejte jméno uživatele</span>
                 <input id="searchBar" type="text" placeholder="Hledej jméno">
-                <button><i class="fas fa-search"></i></button>
+                <button id="search-btn"><i class="fas fa-search"></i></button>
             </div>
             <div class="users-list">
                 

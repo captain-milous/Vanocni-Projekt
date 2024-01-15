@@ -1,6 +1,6 @@
-const form = document.querySelector(".signup form"),
-continueBtn = form.querySelector(".button input"),
-errorText = form.querySelector(".error-text");
+const form = document.getElementById("form");
+const continueBtn = document.getElementById("submit-btn");
+const errorText = document.getElementById("error");
 
 form.onsubmit = (e)=>{
     e.preventDefault();

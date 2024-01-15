@@ -1,8 +1,8 @@
-const form = document.querySelector(".typing-area"),
-incoming_id = form.querySelector(".incoming_id").value,
-inputField = form.querySelector(".input-field"),
-sendBtn = form.querySelector("button"),
-chatBox = document.querySelector(".chat-box");
+const form = document.getElementsByClassName("typing-area");
+const incoming_id = document.getElementsById("incoming-id").value;
+const inputField = document.getElementsByClassName("input-field");
+const sendBtn = document.getElementsById("send-btn");
+const chatBox = document.getElementsByClassName("chat-box");
 
 form.onsubmit = (e)=>{
     e.preventDefault();

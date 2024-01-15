@@ -41,8 +41,8 @@
                 
             </div>
             <form action="#" class="typing-area">
-                <input type="text" class="incoming_id" name="incoming_id" value="<?php echo $user_id; ?>" hidden>
-                <input type="text" name="message" class="input-field" placeholder="Zpráva..." autocomplete="off">
+                <input id="incoming-id" type="text" class="incoming_id" name="incoming_id" value="<?php echo $user_id; ?>" hidden>
+                <input id="send-id" type="text" name="message" class="input-field" placeholder="Zpráva..." autocomplete="off">
                 <button><i class="fab fa-telegram-plane"></i></button>
             </form>
         </section>

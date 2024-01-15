@@ -24,23 +24,23 @@ Pro správný běh webové aplikace na localhostu je potřeba provést následuj
 
 ### Krok 1: Stáhnutí repozitáře
 ```
-git clone https://github.com/tvuj-username/tvoje-repozitar.git
-cd tvoje-repozitar
+git clone https://https://github.com/captain-milous/Vanocni-Projekt.git
+cd Vanocni-Projekt
 ```
 
 ### Krok 2: Konfigurace databáze
 Importujte databázi pomocí přiloženého SQL souboru *chat.sql* do vaší databáze.
 ```
-mysql -u [uzivatel] -p [databaze] < database.sql
+mysql -u [uzivatel] -p [databaze] < chat.sql
 ```
 
 #### Nastavte připojení k databázi v souboru config.php nebo jiném souboru, kde jsou uloženy konfigurační údaje.
+Configurační soubor naleznete v adresáři: *Vanocni-Projekt/php/config.php
 ```
-// config.php
-define('DB_HOST', 'localhost');
-define('DB_USER', 'uzivatel');
-define('DB_PASSWORD', 'heslo');
-define('DB_DATABASE', 'databaze');
+$hostname = "localhost";
+$username = "root";
+$password = "";
+$dbname = "chat";
 ```
 
 ### Krok 3: Spuštění webové aplikace

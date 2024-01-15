@@ -35,7 +35,7 @@ mysql -u [uzivatel] -p [databaze] < chat.sql
 ```
 
 #### Nastavte připojení k databázi v souboru config.php nebo jiném souboru, kde jsou uloženy konfigurační údaje.
-Configurační soubor naleznete v adresáři: *Vanocni-Projekt/php/config.php
+Configurační soubor naleznete v adresáři: *Vanocni-Projekt/php/config.php*
 ```
 $hostname = "localhost";
 $username = "root";
